@@ -1,0 +1,1 @@
+the required solution makes use of django builtin admin system
