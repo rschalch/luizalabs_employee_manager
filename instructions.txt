@@ -1,1 +1,13 @@
-the required solution makes use of django builtin admin system
+1. The required solution makes use of django builtin admin system
+2. Use the following commands to setup the application
+
+pip install -r requirements.txt
+cd luizalabs_employee_manager
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py migrate
+python manage.py runserver
+
+3. Go to "http://127.0.0.1:8000" and make login with the created user
+4. Add some employees at "http://127.0.0.1:8000/employees/employee/add/"
+5. Check read-only API at "http://localhost:8000/employee/"
