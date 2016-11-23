@@ -13,3 +13,4 @@ class EmployeeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Employee
         fields = ('name', 'email', 'department')
+        read_only_fields = ('name', 'email', 'department')

@@ -7,9 +7,9 @@ from .serializers import EmployeeSerializer
 from .models import Employee
 
 
-class EmployeeViewSet(viewsets.ModelViewSet):
+class EmployeeViewSet(viewsets.ReadOnlyModelViewSet):
     """
-    API endpoint that allows employees to be viewed or edited.
+    API endpoint that allows employees to be viewed only.
     """
     queryset = Employee.objects.all()
     serializer_class = EmployeeSerializer
