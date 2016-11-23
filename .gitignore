@@ -1,0 +1,24 @@
+# byte-compiled / optimized / dll files
+__pycache__/
+*.py[cod]
+
+# unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# virtualenv related
+.venv
+
+# django specific
+*.log
+*.pot
+local_settings.py
+
+# databases
+*.sqlite3
+
+# editors stuff
+.vscode/
